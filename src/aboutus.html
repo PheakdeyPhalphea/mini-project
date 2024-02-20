@@ -7,8 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
+    <style>
+        #menu-toggle:checked+#menu {
+            display: block;
+        }
+    </style>
 </head>
-
 <body>
     <!-- header -->
     <header>
@@ -101,32 +105,33 @@
         <section class="flex items-center py-16 bg-stone-100 xl:h-2/4 ">
             <div class="justify-center flex-1 max-w-6xl py-2 mx-auto lg:py-16 md:px-6">
                 <div class="flex flex-wrap">
-                    <div class="w-full px-4 mb-10 py-10 lg:w-1/2 lg:mb-0 ">
+                    <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+                        <div class="relative">
+                            <img src="https://res.cloudinary.com/dmubfrefi/image/private/s--Zm1zUkQT--/c_crop,h_2000,w_3000,x_0,y_0/c_scale,w_1200/f_auto/q_auto/v1/dee-about-cms-prod-medias/70ab6652-fb25-4973-9190-d3686a13234d/fy22-nir-cover-photo-3000x2000.jpg?_a=BAAAROBs	"
+                                alt=""
+                                class="relative z-40 object-cover left-10 md:left-14 lg:left-36 w-9/12 h-[350px] rounded-tr-[80px] rounded-bl-[80px] rounded">
+                            <div
+                                class="absolute z-10 hidden w-9/12 h-full bg-primaryColor rounded-bl-[80px] rounded -bottom-6 lg:right-6 lg:block">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-12 mb-10 py-10 lg:w-1/2 lg:mb-0 ">
                         <div class="relative">
                             <h1
                                 class="absolute -top-20  left-0 text-[20px] lg:text-[100px] text-primaryColor font-medium  opacity-5 md:block hidden">
-                                Impact
+                                About Us
                             </h1>
                             <h1 class="pl-2 text-3xl font-bold border-l-8 border-primaryColor md:text-5xl ">
-                                MOVING FORWARD
+                                Welcome to our site
                             </h1>
                         </div>
-                        <p class="mt-6  text-nav_bar_text leading-7  text-ac dark:text-primaryColor opacity-75">
-                            <span class="font-medium">Our purpose</span> is to move the world forward through the power
-                            of sport. Worldwide, we’re
-                            leveling the playing field, doing our part to protect our collective playground, and
-                            expanding access to sport for everyone. 
+                        <p class="mt-6  text-nav_bar_text leading-7 text-ac dark:text-primaryColor opacity-75">
+                            <span class="font-medium">NIKE</span>, Inc. is a team comprised of the Nike, Jordan and
+                            Converse brands driven by a shared purpose to leave an enduring impact.
+                            <br><span class="font-medium">Our Misson</span>
+                            <br><span>Bring Inspiration And Innovation To Every Athlete *In The World</span>
+
                         </p>
-                    </div>
-                    <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                        <div class="relative">
-                            <img src="https://res.cloudinary.com/dmubfrefi/image/private/s--Zm1zUkQT--/c_crop,h_2000,w_3000,x_0,y_0/c_scale,w_1200/f_auto/q_auto/v1/dee-about-cms-prod-medias/70ab6652-fb25-4973-9190-d3686a13234d/fy22-nir-cover-photo-3000x2000.jpg?_a=BAAAROBs"
-                                alt=""
-                                class="relative z-40 object-cover  left-10 md:left-14 lg:left-36 w-9/12 h-[300px] rounded-tr-[80px] rounded-bl-[80px] rounded">
-                            <div
-                                class="absolute z-10 hidden w-9/12 h-full bg-primaryColor rounded-bl-[80px] rounded -bottom-6 right-6 lg:block">
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

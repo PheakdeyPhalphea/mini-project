@@ -97,11 +97,6 @@ let products3 = [
 ];
 let products4 = [
   {
-    title: "Custom-Nike-Dunk-High<br>Men's Shoes",
-    price: 135,
-    thumbnail: "shoes1.png",
-  },
-  {
     title: "Dunk-Low-Retro<br>Men's Shoes",
     price: 145,
     thumbnail: "shoes2.png",
@@ -115,6 +110,11 @@ let products4 = [
     title: "Nike Dunk High Retro SE<br>Men's Shoes",
     price: 120,
     thumbnail: "shoes4.png",
+  },
+  {
+    title: "Custom-Nike-Dunk-High<br>Men's Shoes",
+    price: 135,
+    thumbnail: "shoes5.png",
   },
 ];
 let products5 = [
