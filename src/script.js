@@ -4,7 +4,7 @@ function displayProducts(products, containerSelector, imageLink) {
     container.innerHTML += `
       <div class="w-full  md:w-1/3 xl:w-1/4 p-6 flex flex-col ">
         <div class="bg-secondaryColor hover:grow "> 
-          <a href="detailProduct.html">
+          <a href="/src/detailProduct.html">
             <img class="bg-secondaryColor" src="${imageLink}${product.thumbnail}">
           </a>
         </div>
@@ -24,11 +24,11 @@ let result2 = "#collection2";
 let result3 = "#collection3";
 let result4 = "#collection4";
 let result5 = "#collection5";
-let imageLink1 = "image/whole-collection/";
-let imageLink2 = "image/nike-air-collections/";
-let imageLink3 = "image/BasketBall-Collections/";
-let imageLink4 = "image/nike-dunk-collections/";
-let imageLink5 = "image/running-collections/";
+let imageLink1 = "/src/image/whole-collection/";
+let imageLink2 = "/src/image/nike-air-collections/";
+let imageLink3 = "/src/image/BasketBall-Collections/";
+let imageLink4 = "/src/image/nike-dunk-collections/";
+let imageLink5 = "/src/image/running-collections/";
 let products1 = [
   {
     title: "Air-Force-1-Hight<br>Men's Shoes",

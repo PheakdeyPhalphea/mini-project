@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="output.css">
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
+  <style>
+    #menu-toggle:checked+#menu {
+      display: block;
+    }
+  </style>
 </head>
 
 <body class="font-customize">
@@ -26,7 +31,7 @@
         <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
           <nav>
             <ul class="md:flex items-center justify-between text-base text-secondaryColor pt-2 md:pt-0">
-              <li><a class="inline-block  py-2 px-4" href="../src/index.html">Home</a></li>
+              <li><a class="inline-block  py-2 px-4" href="../index.html">Home</a></li>
               <li><a class="inline-block py-2 px-4" href="aboutus.html">About</a></li>
             </ul>
           </nav>
