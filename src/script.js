@@ -2,7 +2,7 @@ function displayProducts(products, containerSelector, imageLink) {
   let container = document.querySelector(containerSelector);
   products.forEach((product) => {
     container.innerHTML += `
-      <div class="w-full  md:w-1/3 xl:w-1/4 p-6 flex flex-col ">
+      <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col ">
         <div class="bg-secondaryColor hover:grow "> 
           <a href="src/detailProduct.html">
             <img class="bg-secondaryColor" src="${imageLink}${product.thumbnail}">
